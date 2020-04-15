@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('FrontEnd.Pages.index');
 });
+Route::get('/dash',function () {
+    return view('dashboard.pages.index');
+});
